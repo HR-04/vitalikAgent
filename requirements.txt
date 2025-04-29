@@ -4,5 +4,4 @@ selenium
 pandas 
 openpyxl    
 requests
-beautifulsoup4 
-                             
+beautifulsoup4
