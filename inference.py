@@ -7,7 +7,7 @@ from melo.api import TTS
 # Paths and config
 ckpt_converter = 'checkpoints_v2/converter'
 output_dir = 'outputs'
-reference_speaker = r'F:\openvoice\OpenVoice\checkpoints_v2\base_speakers\ses\vb.wav'
+reference_speaker = r'checkpoints_v2\base_speakers\ses\vb.wav'
 device = "cuda" if torch.cuda.is_available() else "cpu"
 os.makedirs(output_dir, exist_ok=True)
 

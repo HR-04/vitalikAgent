@@ -51,7 +51,7 @@ user_logo_base64 = load_avatar("img/user.png", "USER", (73, 109, 137))
 
 # Vitalik image for sidebar
 try:
-    vitalik_img = Image.open("img/vk3.jpg").resize((300, 300))
+    vitalik_img = Image.open("img/vk3.jpg").resize((650, 400))
 except:
     vitalik_img = create_avatar("VB", (46, 125, 50))
 vitalik_img_base64 = pil_to_base64(vitalik_img)
