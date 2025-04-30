@@ -1,8 +1,8 @@
+
 # 🧠 **Vitalik Agent** – AI-Powered Chatbot Emulating Vitalik Buterin
 
 **Vitalik Agent** is a cutting-edge, AI-powered chatbot designed to mimic the distinct personality, speech style, and voice of **Vitalik Buterin**, co-founder of Ethereum. This interactive agent enables users to engage in both **text** and **voice** conversations, providing insightful and thought-provoking responses on topics related to **blockchain**, **Ethereum**, and more—just as Vitalik would.
 
----
 
 ## Key Features
 
@@ -62,10 +62,12 @@ Whether through **text** or **voice**, Vitalik Agent responds instantly with syn
    pip install -r requirements.txt
    ```
 
-3. **Download model checkpoints** and place them in the `checkpoints_v2` directory.  
-   [Download the checkpoints here](https://drive.google.com/drive/folders/1P1tlKkx7WbnR2CVVNIu7DW3MIiL3zb1R?usp=drive_link).
+3. [Download the necessary model checkpoints and place them in the `checkpoints_v2` directory](https://drive.google.com/drive/folders/1P1tlKkx7WbnR2CVVNIu7DW3MIiL3zb1R?usp=drive_link)
 
-4. **Configure device** for either **CPU** or **GPU**.
+4. **Download the Vitalik Buterin model** for interaction:  
+   [Download the Vitalik Model here](https://ollama.com/Harini_4623/Vitalik_Buterin)
+
+5. **Configure device** for either **CPU** or **GPU**.
 
 ### Running the Application
 
