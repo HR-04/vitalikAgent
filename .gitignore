@@ -1,1 +1,3 @@
-*myenv
+*venv
+__pycache__
+checkpoints_v2
